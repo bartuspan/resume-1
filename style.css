@@ -1,0 +1,208 @@
+/* YUI Reset CSS 3 */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/* YUI Fonts */
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+body {
+	background-color: #cccccc;
+	margin: 0px;
+	padding: 20px 0px;
+}
+
+#container {
+	width: 700px;
+	padding: 20px 125px 5em;
+	border: 1px solid #555;
+	margin: 0px auto;
+	background-color: #ffffff;
+	overflow: hidden;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+}
+
+li {
+	margin-left: 40px;
+	list-style-type: disc;
+}
+
+h1 { 
+	font-family: 'IMFELLDWPicaSCRegular', Helvetica, Arial !important; 
+	font-size: 300%; 
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 1em;
+	color: #336699;
+}
+
+h2 { 
+	font-family: 'IMFELLDWPicaSCRegular', Helvetica, Arial !important; 
+	font-size: 108%;
+	text-align: center;
+	color: #777777;
+}
+
+h2 a {
+	color: #777777;
+	text-decoration: none;
+}
+
+h2 b {
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'IMFELLDWPicaSCRegular', Helvetica, Arial !important;
+	font-size: 153.9%;
+	border-bottom: 1px solid #777777;
+	margin: 2em 0px 1em;
+	color: #336699;
+}
+
+#print_me {
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 1px solid #ffcc33;
+	background-color: #ffffe0;
+	margin-bottom: 20px;
+}
+
+#print_me a {
+	color: #336699;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	margin: 0.5em auto 1em;
+	text-align: left;
+}
+
+.objective {
+	width: 96%;
+}
+
+.education_block {
+	clear: both;
+	margin: 1em auto;
+	width: 96%;
+}
+
+.education_block div {
+	overflow: hidden;
+}
+
+.education_block .dates {
+	float: left;
+	width: 30%;
+	font-weight: bold;
+}
+
+.education_block .school {
+	float: left;
+	width: 50%;
+	font-weight: bold;
+}
+
+.education_block .city {
+	float: left;
+	width: 20%;
+	clear: right;
+	font-weight: bold;
+}
+
+.education_block .degree {
+	clear: both;
+	font-style: italic;
+}
+
+.education_block .extra {
+	margin-top: 5px;
+}
+
+.experience_block {
+	clear: both;
+	margin: 1em auto;
+	width: 96%;
+}
+
+.experience_block div {
+	overflow: hidden;
+}
+
+.experience_block .dates {
+	float: left;
+	width: 30%;
+	font-weight: bold;
+}
+
+.experience_block .company {
+	float: left;
+	width: 50%;
+	font-weight: bold;
+}
+
+.experience_block .city {
+	float: left;
+	width: 20%;
+	clear: right;
+	font-weight: bold;
+}
+
+.experience_block .title {
+	clear: both;
+	font-style: italic;
+}
+
+.experience_block .extra {
+	margin-top: 5px;
+}
+
+.normal_list li {
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+}
+
+span.dot {
+	font-family: Arial, sans-serif;
+	font-size: inherit;
+	font-weight: bold;
+}
+
+@media print {
+	body {
+		margin: 0px;
+		padding: 0px;
+		background-color: white;
+	}
+
+	#container {
+		border-width: 0px;
+		width: 7.5in;
+		padding: 0px;
+		overflow: visible;
+	}
+
+	h1, h2, h3, h2 a {
+		font-family: Arial, sans-serif !important;
+		color: #333333;
+		font-weight: normal;
+		font-style: normal;
+		font-variant: small-caps;
+	}
+	
+	h2 b {
+		font-weight: bold;
+	}
+
+	.education_block, .experience_block, ul {
+		page-break-inside: avoid;
+	}
+	
+	#print_me {
+		display: none;
+	}
+}
