@@ -196,7 +196,7 @@
 		</ul>
 </div>
 
-<p id="footer">Last modified on <?=date("F j, Y", filemtime("/home/jsawczuk/files.jimmysawczuk.com/resume/index.php")); ?></p>
+<p id="footer">Last modified on <?=date("F j, Y", filemtime("/home/jsawczuk/files.jimmysawczuk.com/resume/index.php")); ?> &middot; &copy; <?=date("Y"); ?> Jimmy Sawczuk </p>
 
 <? /*<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> */ ?>
 </body>

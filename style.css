@@ -81,6 +81,11 @@ p {
 	text-align: left;
 }
 
+p#footer {
+	text-align: center;
+	font-size: 93%;
+}
+
 .objective {
 	width: 96%;
 }
