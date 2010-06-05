@@ -22,10 +22,12 @@
 	</h2>
 	<h1>James J. Sawczuk</h1>
 	
+	<? /*
 	<h3>Objective</h3>
 	<p class="objective">
 		To work for a dynamic, growing company and develop cutting-edge software using the latest technologies.
 	</p>
+	*/ ?>
 	
 	<h3>Education</h3>
 		<div class="education_block">
