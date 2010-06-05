@@ -53,6 +53,7 @@
 			</ul>
 		</div>
 		
+		<? /*
 		<div class="education_block">
 			<div class="dates">
 				8/2001 – 6/2005
@@ -70,6 +71,8 @@
 				Honors Diploma – GPA: 3.92
 			</div>
 		</div>
+		
+		*/ ?>
 
 	<h3>Experience</h3>
 		<div class="experience_block">
