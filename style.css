@@ -21,6 +21,7 @@ body {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	position: relative;
+	z-index: 10;
 }
 
 li {
@@ -69,6 +70,7 @@ h3 {
 	border: 1px solid #ffcc33;
 	background-color: #ffffe0;
 	margin-bottom: 20px;
+	z-index: 20;
 }
 
 #print_me a {
