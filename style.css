@@ -30,19 +30,21 @@ li {
 }
 
 h1 { 
-	font-family: 'IMFELLDWPicaSCRegular', Helvetica, Arial !important; 
+	font-family: Georgia, Arial !important; 
 	font-size: 300%; 
 	letter-spacing: 2px;
 	text-align: center;
 	margin-bottom: 1em;
 	color: #336699;
+	font-variant: small-caps;
 }
 
 h2 { 
-	font-family: 'IMFELLDWPicaSCRegular', Helvetica, Arial !important; 
+	font-family: Georgia, Arial !important; 
 	font-size: 108%;
 	text-align: center;
 	color: #777777;
+	font-variant: small-caps;
 }
 
 h2 a {
@@ -55,11 +57,12 @@ h2 b {
 }
 
 h3 {
-	font-family: 'IMFELLDWPicaSCRegular', Helvetica, Arial !important;
+	font-family: Georgia, Arial !important;
 	font-size: 153.9%;
 	border-bottom: 1px solid #777777;
 	margin: 2em 0px 1em;
 	color: #336699;
+	font-variant: small-caps;
 }
 
 #print_me {

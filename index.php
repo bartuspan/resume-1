@@ -4,8 +4,7 @@
 <head>
 <title>James J. Sawczuk - Developer</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-
-<link href="fonts/font.css" rel="stylesheet" media="screen,print" type="text/css" />
+<? /* <link href="fonts/font.css" rel="stylesheet" media="screen,print" type="text/css" /> */ ?>
 <link href="style.css" rel="stylesheet" media="all" type="text/css" />
 <script type="text/javascript">
 
