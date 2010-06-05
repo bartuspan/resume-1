@@ -210,4 +210,8 @@ span.dot {
 	#print_me {
 		display: none;
 	}
+	
+	p#footer {
+		display: none;
+	}
 }
