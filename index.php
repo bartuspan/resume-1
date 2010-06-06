@@ -194,18 +194,18 @@
 		
 	<h3>Skills</h3>
 		<ul class="normal_list">
-			<li><b>Office programs:</b> MOUS (Microsoft Office User Specialist) certification: Word, Excel, and Access, extensive experience with Powerpoint, Sharepoint</li>
-			<li><b>Development programs:</b> Extensive experience with Visual Studio, familiar with Adobe Creative Suite (Dreamweaver, Fireworks)</li>
-			<li><b>Programming languages:</b> Extensive experience with C#, PHP, HTML/XHTML, CSS , experience in C++, Python, Javascript/jQuery</li>
-			<li><b>Databases:</b> Extensive experience with MySQL queries, administration; extensive experience with SQL Server 2005 queries, Reporting Services development</li>
-			<li><b>Operating Systems:</b> Extensive experience with Windows 98 through Windows Vista, experience in Mac OS X, experience in Linux (desktop and programming)</li>
-			<li><b>Other:</b> Extensive experience with the Facebook platform, experience with Mathematica, experience with Subversion and CVS version control, experience with Memcache, experience with Sharepoint application/workflow development</li>
+			<li><b>Office programs:</b> Extensive experience with the Microsoft Office suite, Sharepoint usage; some experience with Sharepoint development (70-541 passed)</li>
+			<li><b>Development programs:</b> Extensive experience with Visual Studio; familiar with Adobe Creative Suite (Dreamweaver, Fireworks, Photoshop)</li>
+			<li><b>Programming languages:</b> Extensive experience with C#, PHP (standard and MVC paradigms), HTML/XHTML, CSS; experience in C++, Python, Ruby on Rails, Javascript/jQuery</li>
+			<li><b>Databases:</b> Extensive experience with MySQL and SQL Server development/optimization; some experience with MySQL/SQL Server administration, Reporting Services development</li>
+			<li><b>Operating Systems:</b> Extensive experience with Windows 98 through Windows 7, Mac OS X; experience in Linux (desktop, terminal, and programming)</li>
+			<li><b>Other:</b> Extensive experience with the Facebook platform; experience with Mathematica, Subversion and CVS version control, Memcache, Sharepoint application/workflow development</li>
 		</ul>
 		
 	<h3>Other</h3>
 		<ul class="normal_list">
-			<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Source available upon request.</li>
-			<li>Senior project at Case is a large application that has web application, web services application, client and iPhone client components. The idea is to synchronize information for all users across a variety of platforms and services. Formerly located at http://www.zaphiri.com.</li>
+			<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Formerly located at http://www.mcjournal.org. Source available upon request.</li>
+			<li>Senior project at CWRU is a large application that has web application, web services application, client and iPhone client components. The idea is to synchronize information for all users across a variety of platforms and services. Formerly located at http://www.zaphiri.com.</li>
 			<li>Contractual work for several small companies and organizations, including a sorority at my university (which is still online) and a Goddard School branch</li>
 			<li>Created and currently administer a website frontend and Google Apps-based backend of a local church for about 15 users, including e-mail, calendars, chat and a custom website</li>
 			<li><b>Microsoft Certified Professional ID</b>: 6635414</li>
