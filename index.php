@@ -205,7 +205,7 @@
 	<h3>Other</h3>
 		<ul class="normal_list">
 			<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Formerly located at http://www.mcjournal.org. Source available upon request.</li>
-			<li>Senior project at CWRU is a large application that has web application, web services application, client and iPhone client components. The idea is to synchronize information for all users across a variety of platforms and services. Formerly located at http://www.zaphiri.com.</li>
+			<li>Led a senior project at CWRU which was a large system with web application, web services application, client and iPhone client components. The idea was to synchronize information for all users across a variety of platforms and services. Formerly located at http://www.zaphiri.com.</li>
 			<li>Contractual work for several small companies and organizations, including a sorority at my university (which is still online) and a Goddard School branch</li>
 			<li>Created and currently administer a website frontend and Google Apps-based backend of a local church for about 15 users, including e-mail, calendars, chat and a custom website</li>
 			<li><b>Microsoft Certified Professional ID</b>: 6635414</li>
