@@ -33,13 +33,6 @@
 	</h2>
 	<h1>James J. Sawczuk</h1>
 	
-	<? /*
-	<h3>Objective</h3>
-	<p class="objective">
-		To work for a dynamic, growing company and develop cutting-edge software using the latest technologies.
-	</p>
-	*/ ?>
-	
 	<h3>Education</h3>
 		<div class="education_block">
 			<div class="dates">
@@ -65,27 +58,6 @@
 				<li>GPA: 3.42</li>
 			</ul>
 		</div>
-		
-		<? /*
-		<div class="education_block">
-			<div class="dates">
-				8/2001 – 6/2005
-			</div>
-			
-			<div class="school">
-				Perry High School
-			</div>
-
-			<div class="city">
-				Perry, OH
-			</div>
-			
-			<div class="degree">
-				Honors Diploma – GPA: 3.92
-			</div>
-		</div>
-		
-		*/ ?>
 
 	<h3>Experience</h3>
 		<div class="experience_block">
@@ -106,11 +78,11 @@
 			</div>
 			
 			<ul class="extra">
-				<li>Developed Facebook platform apps on spec. for clients and superiors that are highly scalable</li>
-				<li>Used a LAMP stack, plus memcache and a load-balanced EC2 setup to deploy highly visible and highly used applications</li>
+				<li>Developed applications for the Facebook platform with millions of users</li>
+				<li>Leveraged a LAMP stack with memcache on an EC2 instance to deploy highly scalable applications</li>
 				<li>Helped to write several Wordpress plugins to help promote blog articles on Facebook</li>
-				<li>Involved in several projects from idea to completion</li>
-				<li>Worked in a highly agile and fast-moving environment, used to changes as work progressed</li>
+				<li>Involved in a ground-up redesign of the corporate website</li>
+				<li>Worked in a highly agile and fast-moving environment, grew used to changes as work progressed</li>
 				<li>Spoke at a local tech group about Facebook platform development</li>
 			</ul>
 		</div>
@@ -213,8 +185,6 @@
 </div>
 
 <p id="footer">Last modified on <?=date("F j, Y", filemtime("/home/jsawczuk/files.jimmysawczuk.com/resume/index.php")); ?> &middot; &copy; <?=date("Y"); ?> Jimmy Sawczuk </p>
-
-<? /*<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> */ ?>
 
 </body>
 </html>
