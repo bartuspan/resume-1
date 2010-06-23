@@ -29,7 +29,9 @@
 <div id="container">
 	<h2>
 		350 Powell Rd. #1823 <span class="dot">&middot;</span> Columbia, SC 29203<br />
-		<b>phone</b> (440) 796-7806 <span class="dot">&middot;</span> <b>e-mail</b> me@jimmysawczuk.com <span class="dot">&middot;</span> <b>web</b> <a href="http://www.jimmysawczuk.com" target="_blank">www.jimmysawczuk.com</a>
+		<b>phone</b> (440) 796-7806 <span class="dot">&middot;</span> 
+		<b>e-mail</b> <a href="mailto:me@jimmysawczuk.com" target="_blank">me@jimmysawczuk.com</a> <span class="dot">&middot;</span> 
+		<b>web</b> <a href="http://www.jimmysawczuk.com" target="_blank">www.jimmysawczuk.com</a>
 	</h2>
 	<h1>James J. Sawczuk</h1>
 	
