@@ -4,6 +4,8 @@
 <head>
 <title>James J. Sawczuk - Developer</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#" />
+<meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows developer." />
 <? /* <link href="fonts/font.css" rel="stylesheet" media="screen,print" type="text/css" /> */ ?>
 <link href="style.css" rel="stylesheet" media="all" type="text/css" />
 <script type="text/javascript">
