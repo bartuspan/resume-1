@@ -189,7 +189,7 @@
 		</ul>
 </div>
 
-<p id="footer">Last modified on <?=@date("F j, Y", @filemtime("/home/jsawczuk/files.jimmysawczuk.com/resume/index.php")); ?> &middot; &copy; <?=date("Y"); ?> Jimmy Sawczuk </p>
+<p id="footer">Last modified on <?=@date("F j, Y", @filemtime("/home/jsawczuk/jimmysawczuk.com/resume/index.php")); ?> &middot; &copy; <?=date("Y"); ?> Jimmy Sawczuk </p>
 
 </body>
 </html>
