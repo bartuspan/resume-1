@@ -183,6 +183,12 @@ span.dot {
 	font-weight: bold;
 }
 
+p#footer a { 
+	color: white; 
+	text-decoration: none;
+	border-bottom: 1px dashed #aaa;
+}
+
 @media print {
 	body {
 		margin: 0px;

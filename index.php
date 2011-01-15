@@ -189,7 +189,10 @@
 		</ul>
 </div>
 
-<p id="footer">Last modified on <?=@date("F j, Y", @filemtime("/home/jsawczuk/jimmysawczuk.com/resume/index.php")); ?> &middot; &copy; <?=date("Y"); ?> Jimmy Sawczuk </p>
-
+<p id="footer">
+	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com">The League of Moveable Type</a> &middot; 
+	Last modified on <?=@date("F j, Y", @filemtime("/home/jsawczuk/jimmysawczuk.com/resume/index.php")); ?> &middot; 
+	&copy; <?=date("Y"); ?> Jimmy Sawczuk
+</p>
 </body>
 </html>
