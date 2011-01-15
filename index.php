@@ -2,11 +2,11 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>James J. Sawczuk - Developer</title>
+<title>James J. Sawczuk - Software Engineer</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#" />
-<meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows developer." />
-<? /* <link href="fonts/font.css" rel="stylesheet" media="screen,print" type="text/css" /> */ ?>
+<meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows software engineer." />
+<link href="fonts/font.css" rel="stylesheet" media="screen,print" type="text/css" />
 <link href="style.css" rel="stylesheet" media="all" type="text/css" />
 <script type="text/javascript">
 
@@ -78,15 +78,16 @@
 			</div>
 			
 			<div class="title">
-				Developer
+				Software Engineer
 			</div>
 			
 			<ul class="extra">
 				<li>Developed applications for the Facebook platform with millions of users</li>
 				<li>Leveraged a LAMP stack with memcache on an EC2 instance to deploy highly scalable applications</li>
-				<li>Helped to write several Wordpress plugins to help promote blog articles on Facebook</li>
+				<li>Involved with implementing a Facebook Page management platform</li>
 				<li>Involved in a ground-up redesign of the corporate website</li>
-				<li>Worked in a highly agile and fast-moving environment, grew used to changes as work progressed</li>
+				<li>Developed an HTML5/CSS/JavaScript-based dashboard optimized for a 1080p display that rotates through vital business statistics throughout the day</li>
+				<li>Worked in a highly agile and fast-moving environment, grew used to fluid specifications</li>
 				<li>Spoke at a local tech group about Facebook platform development</li>
 			</ul>
 		</div>
@@ -172,23 +173,23 @@
 		<ul class="normal_list">
 			<li><b>Office programs:</b> Extensive experience with the Microsoft Office suite, Sharepoint usage; some experience with Sharepoint development (70-541 passed)</li>
 			<li><b>Development programs:</b> Extensive experience with Visual Studio; familiar with Adobe Creative Suite (Dreamweaver, Fireworks, Photoshop)</li>
-			<li><b>Programming languages:</b> Extensive experience with C#, PHP (standard and MVC paradigms), HTML/XHTML, CSS; experience in C++, Python, Ruby on Rails, Javascript/jQuery</li>
+			<li><b>Programming languages:</b> Extensive experience with C#, PHP (standard and MVC paradigms), HTML/XHTML, CSS, Javascript/jQuery; experience in C++, Python, Ruby on Rails</li>
 			<li><b>Databases:</b> Extensive experience with MySQL and SQL Server development/optimization; some experience with MySQL/SQL Server administration, Reporting Services development</li>
 			<li><b>Operating Systems:</b> Extensive experience with Windows 98 through Windows 7, Mac OS X; experience in Linux (desktop, terminal, and programming)</li>
-			<li><b>Other:</b> Extensive experience with the Facebook platform; experience with Mathematica, Subversion and CVS version control, Memcache, Sharepoint application/workflow development</li>
+			<li><b>Other:</b> Extensive experience with the Facebook platform; experience with Mathematica, Subversion, Mercurial and CVS version control, Memcache, Sharepoint application/workflow development</li>
 		</ul>
 		
 	<h3>Other</h3>
 		<ul class="normal_list">
-			<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Formerly located at http://www.mcjournal.org. Source available upon request.</li>
-			<li>Led a senior project at CWRU which was a large system with web application, web services application, client and iPhone client components. The idea was to synchronize information for all users across a variety of platforms and services. Formerly located at http://www.zaphiri.com.</li>
-			<li>Contractual work for several small companies and organizations, including a sorority at my university (which is still online) and a Goddard School branch</li>
-			<li>Created and currently administer a website frontend and Google Apps-based backend of a local church for about 15 users, including e-mail, calendars, chat and a custom website</li>
-			<li><b>Microsoft Certified Professional ID</b>: 6635414</li>
+			<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Source available upon request.</li>
+			<li>Led a senior project at CWRU which was a large system with web application, web services application, client and iPhone client components. The idea was to synchronize information for all users across a variety of platforms and services. Source available upon request.</li>
+			<li>Contractual work for several small companies and organizations, including a sorority at my university and a Goddard School branch</li>
+			<li>Created and currently administer a website frontend and Google Apps-based backend of a local church technology stack for about 25 users, including e-mail, calendars, chat and a custom website.</li>
+			<li><b>Microsoft Certified Professional ID</b>: 6635414.</li>
 		</ul>
 </div>
 
-<p id="footer">Last modified on <?=date("F j, Y", filemtime("/home/jsawczuk/jimmysawczuk.com/resume/index.php")); ?> &middot; &copy; <?=date("Y"); ?> Jimmy Sawczuk </p>
+<p id="footer">Last modified on <?=@date("F j, Y", @filemtime("/home/jsawczuk/files.jimmysawczuk.com/resume/index.php")); ?> &middot; &copy; <?=date("Y"); ?> Jimmy Sawczuk </p>
 
 </body>
 </html>

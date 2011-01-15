@@ -5,7 +5,7 @@ html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pr
 body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
 
 body {
-	background-color: #cccccc;
+	background-color: #999;
 	margin: 0px;
 	padding: 20px 0px;
 }
@@ -13,13 +13,15 @@ body {
 #container {
 	width: 700px;
 	padding: 20px 125px 5em;
-	border: 1px solid #555;
+	border: 1px solid #777;
 	margin: 0px auto;
-	background-color: #ffffff;
+	background-color: #fdfdfd;
 	overflow: hidden;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-box-shadow: 3px 3px 10px #777;
+	-webkit-box-shadow: 3px 3px 10px #777;
+	border-radius: 1px;
 	position: relative;
 	z-index: 10;
 }
@@ -30,13 +32,12 @@ li {
 }
 
 h1 { 
-	font-family: Georgia, Arial !important; 
-	font-size: 300%; 
-	letter-spacing: 2px;
+	font-family: 'LeagueGothicRegular', Georgia, Arial !important; 
+	font-size: 600%; 
 	text-align: center;
-	margin-bottom: 1em;
+	margin-bottom: 0.25em;
 	color: #336699;
-	font-variant: small-caps;
+	text-transform: uppercase;
 }
 
 h2 { 
@@ -57,12 +58,12 @@ h2 b {
 }
 
 h3 {
-	font-family: Georgia, Arial !important;
+	font-family: 'LeagueGothicRegular', Georgia, Arial !important;
 	font-size: 153.9%;
 	border-bottom: 1px solid #777777;
 	margin: 2em 0px 1em;
 	color: #336699;
-	font-variant: small-caps;
+	text-transform: uppercase;
 }
 
 #print_me {
@@ -195,13 +196,17 @@ span.dot {
 		padding: 0px;
 		overflow: visible;
 	}
-
+	
 	h1, h2, h3, h2 a {
 		font-family: Georgia, Arial, sans-serif !important;
 		color: #333333;
 		font-weight: normal;
 		font-style: normal;
 		font-variant: small-caps;
+	}
+	
+	h1 { 
+		font-size: 300%;
 	}
 	
 	h2 b {
