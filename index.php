@@ -190,9 +190,10 @@
 </div>
 
 <p id="footer">
-	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com">The League of Moveable Type</a> &middot; 
+	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot; 
 	Last modified on <?=@date("F j, Y", @filemtime("/home/jsawczuk/jimmysawczuk.com/resume/index.php")); ?> &middot; 
-	&copy; <?=date("Y"); ?> Jimmy Sawczuk
+	&copy; <?=date("Y"); ?> Jimmy Sawczuk &middot;
+	<a href="https://bitbucket.org/jimmysawczuk/resume" target="_blank">Open-sourced at BitBucket</a>
 </p>
 </body>
 </html>
