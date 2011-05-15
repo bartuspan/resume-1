@@ -181,7 +181,7 @@
 		
 	<h3>Other</h3>
 		<ul class="normal_list">
-			<li>Active on <a href="http://www.stackoverflow.com">Stack Overflow</a></li>
+			<li><a href="http://stackoverflow.com/users/350278/jimmy-sawczuk">Active contributor</a> on <a href="http://www.stackoverflow.com">Stack Overflow</a>, a "programming Q &amp; A site that's free." Also <a href="http://careers.stackoverflow.com/jimmysawczuk">a Stack Overflow Careers</a> member.</li>
 			<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Source available upon request.</li>
 			<li>Led a senior project at CWRU which was a large system with web application, web services application, client and iPhone client components. The idea was to synchronize information for all users across a variety of platforms and services. Source available upon request.</li>
 			<li>Contractual work for several small companies and organizations, including a sorority at my university and a Goddard School branch</li>
