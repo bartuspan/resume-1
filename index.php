@@ -4,7 +4,7 @@
 <head>
 <title>James J. Sawczuk - Software Engineer</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#" />
+<meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#, mongodb, developer, software, engineer" />
 <meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows software engineer." />
 <link href="fonts/font.css" rel="stylesheet" media="screen,print" type="text/css" />
 <link href="style.css" rel="stylesheet" media="all" type="text/css" />
@@ -59,6 +59,7 @@
 			<ul class="extra">
 				<li>Courses taken include: software/web engineering, databases, operating systems, networking, artificial intelligence, cryptography</li>
 				<li>Acted as team leader on several large team projects, including a data-driven website project</li>
+				<li>Led a senior project which was a large system with web application, web services application, client and iPhone client components, with the purpose of synchronizing users' address books across services</li>
 				<li>GPA: 3.42</li>
 			</ul>
 		</div>
@@ -82,11 +83,12 @@
 			</div>
 			
 			<ul class="extra">
-				<li>Developed applications for the Facebook platform with millions of users</li>
+				<li>Developed applications for the Facebook platform to serve millions of users</li>
 				<li>Leveraged a LAMP stack with memcache on an EC2 instance to deploy highly scalable applications</li>
 				<li>Involved with implementing a Facebook Page management platform</li>
 				<li>Involved in a ground-up redesign of the corporate website</li>
 				<li>Developed an HTML5/CSS/JavaScript-based dashboard optimized for a 1080p display that rotates through vital business statistics throughout the day</li>
+				<li>Spearheaded the development of a business pivot to Facebook Page audience analytics</li>
 				<li>Worked in a highly agile and fast-moving environment, grew used to fluid specifications</li>
 				<li>Spoke at a local tech group about Facebook platform development</li>
 			</ul>
@@ -137,13 +139,6 @@
 			<div class="title">
 				Engineering Intern
 			</div>
-
-			<ul class="extra">
-				<li>Did field inspection work with city engineers</li>
-				<li>Ran microfilm archival project</li>
-				<li>Provided technical advice on electronic data storage formats</li>
-				<li>Presented status and other information at department meetings</li>
-			</ul>
 		</div>
 		
 		<div class="experience_block">
@@ -171,28 +166,34 @@
 		
 	<h3>Skills</h3>
 		<ul class="normal_list">
-			<li><b>Office programs:</b> Extensive experience with the Microsoft Office suite, Sharepoint usage; some experience with Sharepoint development (70-541 passed)</li>
-			<li><b>Development programs:</b> Extensive experience with Visual Studio; familiar with Adobe Creative Suite (Dreamweaver, Fireworks, Photoshop)</li>
-			<li><b>Programming languages:</b> Extensive experience with C#, PHP (standard and MVC paradigms), HTML/XHTML, CSS, Javascript/jQuery; experience in C++, Python, Ruby on Rails</li>
-			<li><b>Databases:</b> Extensive experience with MySQL and SQL Server development/optimization; some experience with MySQL/SQL Server administration, Reporting Services development</li>
-			<li><b>Operating Systems:</b> Extensive experience with Windows 98 through Windows 7, Mac OS X; experience in Linux (desktop, terminal, and programming)</li>
-			<li><b>Other:</b> Extensive experience with the Facebook platform; experience with Mathematica, Subversion, Mercurial and CVS version control, Memcache, Sharepoint application/workflow development</li>
+			<li><b>Development environments:</b> Extensive experience with Visual Studio; familiar with Adobe Creative Suite (Dreamweaver, Fireworks, Photoshop)</li>
+			<li><b>Programming languages:</b> Extensive experience with PHP (standard and MVC paradigms), C#, HTML/XHTML, CSS, Javascript/jQuery; experience in C++, Python, Ruby on Rails</li>
+			<li><b>APIs:</b> Extensive experience with the Facebook platform (Graph API, Canvas apps); experience with the Twitter API</li>
+			<li><b>Databases:</b> Extensive experience with MySQL and SQL Server development/optimization; some experience with MongoDB, MySQL/SQL Server administration, Reporting Services development</li>
+			<li><b>Operating Systems:</b> Extensive experience with Windows 98 through Windows 7, Mac OS X; experience in Linux (desktop, terminal, and programming); some experience with Amazon EC2 set-up and administration</li>
+			<li><b>Office software:</b> Extensive experience with the Microsoft Office suite, Sharepoint usage; some experience with Sharepoint development (70-541 passed)</li>
+			<li><b>Other:</b> Experience with Mathematica, Subversion, Mercurial, Git, and CVS version control, Memcache, Sharepoint application/workflow development</li>
 		</ul>
 		
 	<h3>Other</h3>
 		<ul class="normal_list">
-			<li><a href="http://stackoverflow.com/users/350278/jimmy-sawczuk">Active contributor</a> on <a href="http://www.stackoverflow.com">Stack Overflow</a>, a "programming Q &amp; A site that's free." Also <a href="http://careers.stackoverflow.com/jimmysawczuk">a Stack Overflow Careers</a> member.</li>
 			<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Source available upon request.</li>
-			<li>Led a senior project at CWRU which was a large system with web application, web services application, client and iPhone client components. The idea was to synchronize information for all users across a variety of platforms and services. Source available upon request.</li>
+			<li>Implemented and <a href="http://code.jimmysawczuk.com/blog-wordpress-theme">open-sourced</a> a WordPress theme from scratch for my personal blog.</li>
 			<li>Contractual work for several small companies and organizations, including a sorority at my university and a Goddard School branch</li>
 			<li>Created and currently administer a website frontend and Google Apps-based backend of a local church technology stack for about 25 users, including e-mail, calendars, chat and a custom website.</li>
-			<li><b>Microsoft Certified Professional ID</b>: 6635414.</li>
+		</ul>
+			
+		<ul class="normal_list">
+			<li><b>Microsoft Certified Professional ID</b>: 6635414</li>
+			<li><b>Stack Overflow:</b> <a href="http://www.stackoverflow.com/users/350278/jimmy-sawczuk">Jimmy Sawczuk</a></li>
+			<li><b>GitHub</b>: <a href="http://www.github.com/jimmysawczuk">github.com/jimmysawczuk</a></li>
+			<li><b>BitBucket</b>: <a href="http://www.bitbucket.org/jimmysawczuk">bitbucket.org/jimmysawczuk</a></li>
 		</ul>
 </div>
 
 <p id="footer">
 	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot; 
-	Last modified on <?=@date("F j, Y", @filemtime("/home/jsawczuk/jimmysawczuk.com/resume/index.php")); ?> &middot; 
+	Last modified on <?=@date("F j, Y", @filemtime(__FILE__)); ?> &middot; 
 	&copy; <?=date("Y"); ?> Jimmy Sawczuk &middot;
 	<a href="https://bitbucket.org/jimmysawczuk/resume" target="_blank">Open-sourced at BitBucket</a>
 </p>
