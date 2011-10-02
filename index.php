@@ -8,7 +8,7 @@ require('bitbucket_revision.php');
 <meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#, mongodb, developer, software, engineer" />
 <meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows software engineer." />
 <link href="fonts/font.css" rel="stylesheet" media="all" type="text/css" />
-<link href="style.css" rel="stylesheet" media="all" type="text/css" />
+<link href="style.css?20111002" rel="stylesheet" media="all" type="text/css" />
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
