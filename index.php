@@ -189,11 +189,11 @@ require('bitbucket_revision.php');
 </div>
 
 <p id="footer">
-	<?=BitbucketRevision::format('<a href="http://bitbucket.org/jimmysawczuk/resume/changeset/%h" target="_blank">rev. %d:%h</a> &middot;'); ?>
-	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot;
-	Last modified on <?=@date("F j, Y", @filemtime(__FILE__)); ?> &middot; 
 	&copy; <?=date("Y"); ?> Jimmy Sawczuk &middot;
-	<a href="https://bitbucket.org/jimmysawczuk/resume" target="_blank">Open-sourced at BitBucket</a>
+	<?=BitbucketRevision::format('<a href="http://bitbucket.org/jimmysawczuk/resume/changeset/%h" target="_blank">rev. %d:%h</a> &middot;'); ?>
+	<a href="https://bitbucket.org/jimmysawczuk/resume" target="_blank">Open-sourced at BitBucket</a> &middot;
+	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot;
+	Last modified on <?=@date("F j, Y", @filemtime(__FILE__)); ?>
 </p>
 </body>
 </html>
