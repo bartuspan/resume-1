@@ -1,12 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+require('bitbucket_revision.php');
+?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>James J. Sawczuk - Software Engineer</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#, mongodb, developer, software, engineer" />
 <meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows software engineer." />
-<link href="fonts/font.css" rel="stylesheet" media="screen,print" type="text/css" />
+<link href="fonts/font.css" rel="stylesheet" media="all" type="text/css" />
 <link href="style.css" rel="stylesheet" media="all" type="text/css" />
 <script type="text/javascript">
 
@@ -24,10 +25,6 @@
 </head>
 <body>
 
-<div id="print_me">
-	<a href="javascript: void(0);" onclick="window.print();" title="Print this resume">Print this resum&#233;</a>.
-</div>
-
 <div id="container">
 	<h2>
 		350 Powell Rd. #1823 <span class="dot">&middot;</span> Columbia, SC 29203<br />
@@ -38,7 +35,7 @@
 	<h1>James J. Sawczuk</h1>
 	
 	<h3>Education</h3>
-		<div class="education_block">
+		<div class="block education">
 			<div class="dates">
 				8/2005 – 5/2009
 			</div>
@@ -65,7 +62,7 @@
 		</div>
 
 	<h3>Experience</h3>
-		<div class="experience_block">
+		<div class="block experience">
 			<div class="dates">
 				6/2009 – present
 			</div>
@@ -94,7 +91,7 @@
 			</ul>
 		</div>
 		
-		<div class="experience_block">
+		<div class="block experience">
 			<div class="dates">
 				6/2007 – 5/2009
 			</div>
@@ -123,7 +120,7 @@
 			</ul>
 		</div>
 		
-		<div class="experience_block">
+		<div class="block experience">
 			<div class="dates">
 				5/2006 – 7/2006
 			</div>
@@ -141,7 +138,7 @@
 			</div>
 		</div>
 		
-		<div class="experience_block">
+		<div class="block experience">
 			<div class="dates">
 				11/2003 – 8/2005
 			</div>
@@ -192,7 +189,8 @@
 </div>
 
 <p id="footer">
-	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot; 
+	<?=BitbucketRevision::format('<a href="http://bitbucket.org/jimmysawczuk/resume/changeset/%h" target="_blank">rev. %d:%h</a> &middot;'); ?>
+	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot;
 	Last modified on <?=@date("F j, Y", @filemtime(__FILE__)); ?> &middot; 
 	&copy; <?=date("Y"); ?> Jimmy Sawczuk &middot;
 	<a href="https://bitbucket.org/jimmysawczuk/resume" target="_blank">Open-sourced at BitBucket</a>

@@ -17,11 +17,6 @@ body {
 	margin: 0px auto;
 	background-color: #fdfdfd;
 	overflow: hidden;
-	-moz-border-radius: 1px;
-	-webkit-border-radius: 1px;
-	-moz-box-shadow: 3px 3px 10px #777;
-	-webkit-box-shadow: 3px 3px 10px #777;
-	border-radius: 1px;
 	position: relative;
 	z-index: 10;
 }
@@ -31,17 +26,7 @@ li {
 	list-style-type: disc;
 }
 
-a {
-	color: #777777;
-	text-decoration: underline;
-}
-
-a:active {
-	color: #777777;
-	text-decoration: underline;
-}
-
-a:visited {
+a, a:active, a:visited {
 	color: #777777;
 	text-decoration: underline;
 }
@@ -51,13 +36,10 @@ a:hover {
 	text-decoration: none;
 }
 
-
-
 h1 { 
 	font-family: 'LeagueGothicRegular', Georgia, Arial !important; 
 	font-size: 600%; 
 	text-align: center;
-	margin-bottom: 0.25em;
 	color: #336699;
 	text-transform: uppercase;
 }
@@ -88,21 +70,6 @@ h3 {
 	text-transform: uppercase;
 }
 
-#print_me {
-	padding: 10px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 1px solid #ffcc33;
-	background-color: #ffffe0;
-	margin-bottom: 20px;
-	z-index: 20;
-}
-
-#print_me a {
-	color: #336699;
-}
-
 p {
 	font-family: Arial, sans-serif;
 	margin: 0.5em auto 1em;
@@ -111,86 +78,76 @@ p {
 
 p#footer {
 	text-align: center;
-	font-size: 93%;
+	font-size: 85%;
 }
 
 .objective {
 	width: 96%;
 }
 
-.education_block {
+.block {
 	clear: both;
 	margin: 1em auto;
 	width: 96%;
 }
 
-.education_block div {
+.block div {
 	overflow: hidden;
 }
 
-.education_block .dates {
+.education .dates {
 	float: left;
 	width: 30%;
 	font-weight: bold;
 }
 
-.education_block .school {
+.education .school {
 	float: left;
 	width: 50%;
 	font-weight: bold;
 }
 
-.education_block .city {
+.education .city {
 	float: left;
 	width: 20%;
 	clear: right;
 	font-weight: bold;
 }
 
-.education_block .degree {
+.education .degree {
 	clear: both;
 	font-style: italic;
 }
 
-.education_block .extra {
+.education .extra {
 	margin-top: 5px;
 }
 
-.experience_block {
-	clear: both;
-	margin: 1em auto;
-	width: 96%;
-}
-
-.experience_block div {
-	overflow: hidden;
-}
-
-.experience_block .dates {
+.experience .dates {
 	float: left;
 	width: 30%;
 	font-weight: bold;
 }
 
-.experience_block .company {
+.experience .company {
 	float: left;
 	width: 50%;
 	font-weight: bold;
 }
 
-.experience_block .city {
+.experience .city {
 	float: left;
 	width: 20%;
 	clear: right;
 	font-weight: bold;
 }
 
-.experience_block .title {
+.experience .title {
 	clear: both;
 	font-style: italic;
 }
 
-.experience_block .extra {
+.experience .extra {
 	margin-top: 5px;
 }
 
@@ -212,6 +169,7 @@ p#footer a {
 }
 
 @media print {
+
 	body {
 		margin: 0px;
 		padding: 0px;
@@ -226,12 +184,12 @@ p#footer a {
 	}
 	
 	a {
-		color: #000;
+		color: #000 !important;
 		text-decoration: none;
 	}
 	
 	h1, h2, h3, h2 a {
-		font-family: Georgia, Arial, sans-serif !important;
+		font-family: 'Arial Narrow', Arial, sans-serif !important;
 		color: #333333;
 		font-weight: normal;
 		font-style: normal;
@@ -240,21 +198,33 @@ p#footer a {
 	
 	h1 { 
 		font-size: 300%;
+		font-weight: bold;
 	}
 	
 	h2 b {
 		font-weight: bold;
 	}
-
-	.education_block, .experience_block, ul {
-		page-break-inside: avoid;
-	}
 	
-	#print_me {
-		display: none;
+	h3 { 
+		font-weight: bold;
+	}
+
+	.education_block, .experience, ul {
+		page-break-inside: avoid;
 	}
 	
 	p#footer {
 		display: none;
+	}
+}
+
+@media screen {
+	
+	#container {
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px;
+		-moz-box-shadow: 3px 3px 10px #777;
+		-webkit-box-shadow: 3px 3px 10px #777;
+		border-radius: 1px;
 	}
 }
