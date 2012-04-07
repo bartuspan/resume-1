@@ -59,8 +59,8 @@ body{background-color:#aaa;font-family:Helvetica,Arial,sans-serif;color:#333333;
 #content .container h2{font-size:93%;text-align:center;line-height:150%;font-weight:normal;margin:0.25em 0px;}#content .container h2 a{color:#333333;}#content .container h2 a:active{color:#333333;}
 #content .container h2 a:visited{color:#333333;}
 #content .container h2 a:hover{text-decoration:none;color:#333333;}
-#content .container h1{font-family:'LeagueGothic','Impact','Helvetica','Arial';color:#476685;text-transform:uppercase;text-align:center;font-size:70px;margin:0px;letter-spacing:1px;}
-#content .container h3{font-family:'LeagueGothic','Impact','Helvetica','Arial';color:#476685;font-size:30px;text-transform:uppercase;border-bottom:1px solid #999;margin:0.5em 0px;}
+#content .container h1{font-family:'LeagueGothic','Impact','Helvetica','Arial';color:#476685;text-transform:uppercase;text-align:center;font-size:70px;margin:0px;letter-spacing:1px;font-weight:normal;}
+#content .container h3{font-family:'LeagueGothic','Impact','Helvetica','Arial';color:#476685;font-size:30px;text-transform:uppercase;border-bottom:1px solid #999;margin:0.5em 0px;font-weight:normal;}
 #content .container a{color:#476685;}#content .container a:active{color:#476685;}
 #content .container a:visited{color:#476685;}
 #content .container a:hover{text-decoration:none;color:#476685;}

@@ -14,7 +14,8 @@
 	
 		private static function parse()
 		{		
-			$info = @file(ROOT . '/' . self::$filename);
+
+			$info = @file(dirname('..') . '/' . self::$filename);
 			
 			if (!$info)
 			{

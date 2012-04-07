@@ -561,6 +561,7 @@ body {
   font-size: 70px;
   margin: 0px;
   letter-spacing: 1px;
+  font-weight: normal;
 }
 #content .container h3 {
   font-family: 'LeagueGothic', 'Impact', 'Helvetica', 'Arial';
@@ -569,6 +570,7 @@ body {
   text-transform: uppercase;
   border-bottom: 1px solid #999;
   margin: 0.5em 0px;
+  font-weight: normal;
 }
 #content .container a {
   color: #476685;
