@@ -5,10 +5,9 @@ require('includes/functions.php');
 <head>
 <title>James J. Sawczuk - Software Engineer</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#, mongodb, developer, software, engineer" />
+<meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#, mongodb, developer, software, engineer, go, programmer" />
 <meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows software engineer." />
 <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-3634519-13']);
   _gaq.push(['_trackPageview']);
@@ -18,10 +17,9 @@ require('includes/functions.php');
 	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
-
-<? load_stylesheet('style'); ?>
+<? load_stylesheet('style', array('media' => 'screen')); ?>
+<? load_stylesheet('print', array('media' => 'print'), true); ?>
 </head>
 <body>
 
@@ -173,7 +171,7 @@ require('includes/functions.php');
 					<li><b>Office software:</b> Extensive experience with the Microsoft Office suite, Sharepoint usage; some experience with Sharepoint development (70-541 passed)</li>
 					<li><b>Other:</b> Experience with Mathematica, Subversion, Mercurial, Git, and CVS version control, Memcache, Sharepoint application/workflow development</li>
 				</ul>
-			</ul>
+			</div>
 			
 		<h3>Other</h3>
 			<div class="normal_list">

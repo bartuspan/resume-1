@@ -9,13 +9,19 @@ if (!defined('MODE'))
 	define('MODE', 'live');
 }
 
-function load_stylesheet($path_to_stylesheet)
+function load_stylesheet($path_to_stylesheet, array $opts = array(), $override = false)
 {
 	global $_SERVER;
 
-	if (MODE == 'live')
+	$kv = array();
+	foreach ($opts as $key => $value)
 	{
-		echo '<link href="css/'.$path_to_stylesheet.'.min.css" type="text/css" rel="stylesheet" />' . "\n";
+		$kv []= "{$key}=\"{$value}\"";
+	}
+
+	if (MODE == 'live' || $override)
+	{
+		echo '<link href="css/'.$path_to_stylesheet.'.min.css" type="text/css" rel="stylesheet" '.implode(" ", $kv).' />' . "\n";
 	}
 	else
 	{

@@ -27,6 +27,12 @@
 	box-shadow: @h @v @blur @spread @color;
 }
 
+.box-shadow (@none) {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
 .text-shadow (@color, @x, @y, @blur) {
 	text-shadow: @color @x @y @blur;
 }
@@ -39,7 +45,10 @@
 	opacity: @pctDecimal;
 }
 
-.clearboth { clear: both; }
+.clearboth() { 
+	clear: both; 
+}
+
 .clearfix() {
 	&:after {
 	 	content: ".";  
