@@ -63,7 +63,7 @@ body{background-color:#aaa;font-family:Helvetica,Arial,sans-serif;color:#333333;
 #content .container a{color:#476685;}#content .container a:active{color:#476685;}
 #content .container a:visited{color:#476685;}
 #content .container a:hover{text-decoration:none;color:#476685;}
-#content .container .block{clear:both;margin:1em auto 1.5em;width:96%;}#content .container .block div{overflow:hidden;}
+#content .container .education,#content .container .experience{clear:both;margin:1em auto 1.5em;width:96%;}#content .container .education div,#content .container .experience div{overflow:hidden;}
 #content .container .education .dates{float:left;width:30%;font-weight:bold;}
 #content .container .education .school{float:left;width:50%;font-weight:bold;}
 #content .container .education .city{float:left;width:20%;clear:right;font-weight:bold;}
@@ -79,4 +79,5 @@ body{background-color:#aaa;font-family:Helvetica,Arial,sans-serif;color:#333333;
 #footer{margin:1.5em 0px 2em;font-size:85%;text-align:center;color:#444;}#footer a{color:#dedede;}#footer a:active{color:#dedede;}
 #footer a:visited{color:#dedede;}
 #footer a:hover{text-decoration:none;color:#dedede;}
-@media print{@page {margin:0.5in 0.5in;div.block{page-break-inside:avoid;}}@page :first{margin:0in 0.5in 0.5in;}html{margin:0px;padding:0px;} body{margin:0px;width:7.5in;background-color:white;} #content{margin:0px;}#content .container{padding:0px;border-width:0px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border-radius:0px 0px 0px 0px;-moz-border-radius:0px 0px 0px 0px;-webkit-border-radius:0px 0px 0px 0px;} #footer{display:none;}}
+#print_footer{display:none;}
+@media print{@page {size:8.5in 11in;margin:0.5in 0.5in 0.5in;}@page :first{margin:0.25in 0.5in 0.5in;}html{margin:0px;padding:0px;} body{margin:0px;width:100%;background-color:white;position:relative;} #content{margin:0px;}#content .container{padding:0px;border-width:0px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border-radius:0px 0px 0px 0px;-moz-border-radius:0px 0px 0px 0px;-webkit-border-radius:0px 0px 0px 0px;font-size:108%;}#content .container div.block{page-break-inside:avoid;} #content .container h1{letter-spacing:normal;} #content .container h3{letter-spacing:normal;} #footer{display:none;} #print_footer{display:block;text-align:center;color:#999;page-break-before:avoid;margin-top:10em;}}

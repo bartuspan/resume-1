@@ -4,6 +4,8 @@ require('includes/functions.php');
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>James J. Sawczuk - Software Engineer</title>
+<?php load_stylesheet('style', array('media' => 'screen')); ?>
+<?php load_stylesheet('print', array('media' => 'print'), true); ?>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#, mongodb, developer, software, engineer, go, programmer" />
 <meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows software engineer." />
@@ -18,8 +20,6 @@ require('includes/functions.php');
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-<? load_stylesheet('style', array('media' => 'screen')); ?>
-<? load_stylesheet('print', array('media' => 'print'), true); ?>
 </head>
 <body>
 
@@ -33,8 +33,9 @@ require('includes/functions.php');
 		</h2>
 		<h1>James J. Sawczuk</h1>
 		
-		<h3>Education</h3>
-			<div class="block education">
+		<div class="block">
+			<h3>Education</h3>
+			<div class="education">
 				<div class="dates">
 					8/2005 – 5/2009
 				</div>
@@ -59,9 +60,11 @@ require('includes/functions.php');
 					<li>GPA: 3.42</li>
 				</ul>
 			</div>
+		</div>
 
-		<h3>Experience</h3>
-			<div class="block experience">
+		<div class="block">
+			<h3>Experience</h3>
+			<div class="experience">
 				<div class="dates">
 					6/2009 – present
 				</div>
@@ -90,7 +93,7 @@ require('includes/functions.php');
 				</ul>
 			</div>
 			
-			<div class="block experience">
+			<div class="experience">
 				<div class="dates">
 					6/2007 – 5/2009
 				</div>
@@ -119,7 +122,7 @@ require('includes/functions.php');
 				</ul>
 			</div>
 			
-			<div class="block experience">
+			<div class="experience">
 				<div class="dates">
 					5/2006 – 7/2006
 				</div>
@@ -137,7 +140,7 @@ require('includes/functions.php');
 				</div>
 			</div>
 			
-			<div class="block experience">
+			<div class="experience">
 				<div class="dates">
 					11/2003 – 8/2005
 				</div>
@@ -159,8 +162,10 @@ require('includes/functions.php');
 					<li>Worked with other students on several larger projects, including a high school course registrar and a course database complete with objectives</li>
 				</ul>
 			</div>
-			
-		<h3>Skills</h3>
+		</div>
+		
+		<div class="block">
+			<h3>Skills</h3>
 			<div class="normal_list">
 				<ul>
 					<li><b>Development environments:</b> Extensive experience with Visual Studio; familiar with Adobe Creative Suite (Dreamweaver, Fireworks, Photoshop)</li>
@@ -172,14 +177,16 @@ require('includes/functions.php');
 					<li><b>Other:</b> Experience with Mathematica, Subversion, Mercurial, Git, and CVS version control, Memcache, Sharepoint application/workflow development</li>
 				</ul>
 			</div>
+		</div>
 			
-		<h3>Other</h3>
+		<div class="block">
+			<h3>Other</h3>
 			<div class="normal_list">
 				<ul>
 					<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Source available upon request.</li>
-					<li>Implemented and <a href="http://code.jimmysawczuk.com/blog-wordpress-theme">open-sourced</a> a WordPress theme from scratch for my personal blog.</li>
-					<li>Contractual work for several small companies and organizations, including a sorority at my university and a Goddard School branch</li>
+					<li>Implemented and <a href="http://code.jimmysawczuk.com/jimmysawczuk.com">open-sourced</a> a WordPress theme from scratch for my personal blog.</li>
 					<li>Created and currently administer a website frontend and Google Apps-based backend of a local church technology stack for about 25 users, including e-mail, calendars, chat and a custom website.</li>
+					<li>Took and completed the inaugural free <a href="https://www.coursera.org/course/ml">machine learning class</a> from Stanford and Coursera with a final score of 100%.</li>
 				</ul>
 			</div>
 				
@@ -191,15 +198,23 @@ require('includes/functions.php');
 					<li><b>BitBucket</b>: <a href="http://www.bitbucket.org/jimmysawczuk">bitbucket.org/jimmysawczuk</a></li>
 				</ul>
 			</div>
+		</div>
 	</div>
 </div>
 
 <p id="footer">
-	&copy; <?=date("Y"); ?> Jimmy Sawczuk &middot;
-	<?=git_revision(); ?>
-	<a href="https://bitbucket.org/jimmysawczuk/resume" target="_blank">Open-sourced at BitBucket</a> &middot;
+	&copy; <?php echo date("Y"); ?> Jimmy Sawczuk &middot;
+	<?php echo git_revision(); ?>
+	<a href="http://github.com/jimmysawczuk/resume" target="_blank">Open-sourced on Github</a> &middot;
 	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot;
-	Last modified on <?=@date("F j, Y", @filemtime(__FILE__)); ?>
+	Last modified on <?php echo @date("F j, Y", @filemtime(__FILE__)); ?>
 </p>
+<div id="print_footer">
+	<p>
+		&copy; <?php echo date("Y"); ?> Jimmy Sawczuk &middot;
+		<?php echo print_git_revision(); ?>
+		Printed on <?php echo date("F j, Y"); ?>
+	</p>
+</div>
 </body>
 </html>

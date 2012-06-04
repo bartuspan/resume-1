@@ -19,7 +19,7 @@ function load_stylesheet($path_to_stylesheet, array $opts = array(), $override =
 		$kv []= "{$key}=\"{$value}\"";
 	}
 
-	if (MODE == 'live' || $override)
+	if (MODE == 'live' || $override || isset($_SERVER['TERM']))
 	{
 		echo '<link href="css/'.$path_to_stylesheet.'.min.css" type="text/css" rel="stylesheet" '.implode(" ", $kv).' />' . "\n";
 	}
@@ -32,8 +32,8 @@ function load_stylesheet($path_to_stylesheet, array $opts = array(), $override =
 		echo "<script type=\"text/javascript\">
 				if (typeof localStorage !== 'undefined')
 				{
-					delete localStorage['{$uri}{$path_to_stylesheet}.less']; 
-					delete localStorage['{$uri}{$path_to_stylesheet}.less:timestamp']; 
+					delete localStorage['{$uri}/{$path_to_stylesheet}.less']; 
+					delete localStorage['{$uri}/{$path_to_stylesheet}.less:timestamp']; 
 				}
 			</script>";
 		echo '<script src="js/less-1.3.0.min.js" type="text/javascript" charset="utf-8"></script>' . "\n";
@@ -42,6 +42,11 @@ function load_stylesheet($path_to_stylesheet, array $opts = array(), $override =
 
 function git_revision()
 {
-	return GitRevision::format('<a href="http://bitbucket.org/jimmysawczuk/resume/changeset/%r" target="_blank">rev. %r</a> &middot;');
+	return GitRevision::format('<a href="http://github.com/jimmysawczuk/resume/commit/%r" target="_blank">rev. %r</a> &middot;');
+}
+
+function print_git_revision()
+{
+	return GitRevision::format('rev. %r (%f) &middot;', "", "d-M Y h:i A");
 }
 

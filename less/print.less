@@ -2,27 +2,28 @@
 
 @media print {
 	@page {
-		margin: 0.5in 0.5in;
-
-		div.block {
-			page-break-inside: avoid;
-		}
+		size: 8.5in 11in;
+		margin: 0.5in 0.5in 0.5in;
 	}
 
 	@page :first {
-		margin: 0in 0.5in 0.5in;
+		margin: 0.25in 0.5in 0.5in;
 	}
 
 	html {
 		margin: 0px;
 		padding: 0px;
+		// width: 7.5in;
+		// overflow-x: hidden;
 	}
 
 	body {
 		margin: 0px;
-		width: 7.5in;
+		width: 100%;
 		background-color: white;
+		position: relative;
 	}
+
 	#content {
 		margin: 0px;
 		.container {
@@ -30,9 +31,32 @@
 			border-width: 0px;
 			.box-shadow(none);
 			.border-radius(0px);
+			font-size: 108%;
+
+			div.block {
+				page-break-inside: avoid;
+			}
+
+			h1 {
+				letter-spacing: normal;
+			}
+
+			h3 {
+				letter-spacing: normal;
+			}
 		}
 	}
 	#footer {
 		display: none;
+	}
+	#print_footer {
+		display: block;
+
+		text-align: center;
+		color: #999;
+
+		page-break-before: avoid;
+
+		margin-top: 10em;
 	}
 }

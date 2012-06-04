@@ -41,7 +41,7 @@
 			return $tbr;
 		}
 		
-		public static function format($format_str, $show_if_fail = "")
+		public static function format($format_str, $show_if_fail = "", $format = "c")
 		{
 			$info = self::parse();
 			
@@ -55,6 +55,7 @@
 				"%R" => 'hex_long',
 				"%d" => 'date',
 				"%U" => 'date_timestamp',
+				"%f" => 'date_formatted',
 				"%b" => 'branches',
 				"%a" => 'author.name',
 				"%e" => 'author.email',
@@ -65,7 +66,14 @@
 			
 			foreach ($tokens as $token => $key)
 			{
-				$tbr = str_replace($token, $info[$key], $tbr);
+				if ($key != "date_formatted")
+				{
+					$tbr = str_replace($token, $info[$key], $tbr);	
+				}
+				else
+				{
+					$tbr = str_replace($token, date($format, $info['date_timestamp']), $tbr);
+				}				
 			}
 			
 			return $tbr;

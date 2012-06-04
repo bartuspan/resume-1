@@ -63,7 +63,7 @@ body{background-color:#aaa;font-family:Helvetica,Arial,sans-serif;color:#333333;
 #content .container a{color:#476685;}#content .container a:active{color:#476685;}
 #content .container a:visited{color:#476685;}
 #content .container a:hover{text-decoration:none;color:#476685;}
-#content .container .block{clear:both;margin:1em auto 1.5em;width:96%;}#content .container .block div{overflow:hidden;}
+#content .container .education,#content .container .experience{clear:both;margin:1em auto 1.5em;width:96%;}#content .container .education div,#content .container .experience div{overflow:hidden;}
 #content .container .education .dates{float:left;width:30%;font-weight:bold;}
 #content .container .education .school{float:left;width:50%;font-weight:bold;}
 #content .container .education .city{float:left;width:20%;clear:right;font-weight:bold;}
@@ -79,3 +79,4 @@ body{background-color:#aaa;font-family:Helvetica,Arial,sans-serif;color:#333333;
 #footer{margin:1.5em 0px 2em;font-size:85%;text-align:center;color:#444;}#footer a{color:#dedede;}#footer a:active{color:#dedede;}
 #footer a:visited{color:#dedede;}
 #footer a:hover{text-decoration:none;color:#dedede;}
+#print_footer{display:none;}

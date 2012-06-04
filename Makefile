@@ -4,3 +4,9 @@ default:
 
 	@lessc -x less/print.less css/print.min.css
 	@lessc less/print.less css/print.css
+
+
+# experimental
+pdf: 
+	@@make
+	@php index.php > tmp.html && wkhtmltopdf --print-media-type tmp.html resume.pdf && rm tmp.html

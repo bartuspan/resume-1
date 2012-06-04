@@ -582,12 +582,14 @@ body {
   text-decoration: none;
   color: #476685;
 }
-#content .container .block {
+#content .container .education,
+#content .container .experience {
   clear: both;
   margin: 1em auto 1.5em;
   width: 96%;
 }
-#content .container .block div {
+#content .container .education div,
+#content .container .experience div {
   overflow: hidden;
 }
 #content .container .education .dates {
@@ -666,4 +668,7 @@ body {
 #footer a:hover {
   text-decoration: none;
   color: #dedede;
+}
+#print_footer {
+  display: none;
 }
