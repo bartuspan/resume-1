@@ -84,7 +84,8 @@ require('includes/functions.php');
 				</div>
 				
 				<ul class="extra">
-					<li>Leveraged a LAMP stack and other technology on a collection of EC2 instances to deploy highly scalable web applications</li>
+					<li>Developed highly-scalable web applications using a LAMP stack deployed on Amazon EC2</li>
+					<li>Used a number of other technologies such as memcache, Redis, and node.js on production applications</li>
 					<li>Developed applications for the Facebook platform to serve millions of users</li>
 					<li>Spearheaded the development of a business pivot to Facebook Page audience analytics</li>
 					<li>Prototyped most of the analytics algorithms used</li>
