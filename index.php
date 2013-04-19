@@ -26,7 +26,7 @@ require('includes/functions.php');
 <div id="content">
 	<div class="container">
 		<h2>
-			350 Powell Rd. #1823 <span class="dot">&middot;</span> Columbia, SC 29203<br />
+			1134 Autumn Circle <span class="dot">&middot;</span> Columbia, SC 29206<br />
 			<b>phone</b> (440) 796-7806 <span class="dot">&middot;</span> 
 			<b>e-mail</b> <a href="mailto:me@jimmysawczuk.com" target="_blank">me@jimmysawczuk.com</a> <span class="dot">&middot;</span> 
 			<b>web</b> <a href="http://www.jimmysawczuk.com" target="_blank">www.jimmysawczuk.com</a>
