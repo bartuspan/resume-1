@@ -2,12 +2,14 @@
 
 @include('config.php');
 
-require('git_revision.php');
+require('scm_status.php');
 
 if (!defined('MODE'))
 {
 	define('MODE', 'live');
 }
+
+ScmStatus::setFilepath(dirname(__FILE__) . '/../REVISION.json');
 
 function load_stylesheet($path_to_stylesheet, array $opts = array(), $override = false)
 {
@@ -28,12 +30,12 @@ function load_stylesheet($path_to_stylesheet, array $opts = array(), $override =
 		$uri = 'http://' . $_SERVER['HTTP_HOST'];
 		echo '<link rel="stylesheet/less" href="less/'.$path_to_stylesheet.'.less?date='.date('YmdHis').'" type="text/css" />'
 			. "\n";
-		
+
 		echo "<script type=\"text/javascript\">
 				if (typeof localStorage !== 'undefined')
 				{
-					delete localStorage['{$uri}/{$path_to_stylesheet}.less']; 
-					delete localStorage['{$uri}/{$path_to_stylesheet}.less:timestamp']; 
+					delete localStorage['{$uri}/{$path_to_stylesheet}.less'];
+					delete localStorage['{$uri}/{$path_to_stylesheet}.less:timestamp'];
 				}
 			</script>";
 		echo '<script src="js/less-1.3.0.min.js" type="text/javascript" charset="utf-8"></script>' . "\n";
@@ -42,11 +44,10 @@ function load_stylesheet($path_to_stylesheet, array $opts = array(), $override =
 
 function git_revision()
 {
-	return GitRevision::format('<a href="http://github.com/jimmysawczuk/resume/commit/%r" target="_blank">rev. %r</a> &middot;');
+	return ScmStatus::format('<a href="http://github.com/jimmysawczuk/resume/commit/%r" target="_blank">rev. %r</a> &middot;');
 }
 
 function print_git_revision()
 {
-	return GitRevision::format('rev. %r (%f) &middot;', "", "d-M Y h:i A");
+	return ScmStatus::format('rev. %r (%F) &middot;', array('format_date' => "d-M Y g:i A T"));
 }
-

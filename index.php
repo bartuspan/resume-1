@@ -27,23 +27,23 @@ require('includes/functions.php');
 	<div class="container">
 		<h2>
 			1134 Autumn Circle <span class="dot">&middot;</span> Columbia, SC 29206<br />
-			<b>phone</b> (440) 796-7806 <span class="dot">&middot;</span> 
-			<b>e-mail</b> <a href="mailto:me@jimmysawczuk.com" target="_blank">me@jimmysawczuk.com</a> <span class="dot">&middot;</span> 
+			<b>phone</b> (440) 796-7806 <span class="dot">&middot;</span>
+			<b>e-mail</b> <a href="mailto:me@jimmysawczuk.com" target="_blank">me@jimmysawczuk.com</a> <span class="dot">&middot;</span>
 			<b>web</b> <a href="http://www.jimmysawczuk.com" target="_blank">www.jimmysawczuk.com</a>
 		</h2>
 		<h1>James J. Sawczuk</h1>
-		
+
 		<div class="block">
 			<h3>Education</h3>
 			<div class="education">
 				<div class="dates">
 					8/2005 – 5/2009
 				</div>
-				
+
 				<div class="school">
 					Case Western Reserve University
 				</div>
-				
+
 				<div class="city">
 					Cleveland, OH
 				</div>
@@ -52,15 +52,6 @@ require('includes/functions.php');
 					Bachelor of Science, Computer Science<br />
 					Minor, Mathematics
 				</div>
-				
-				<? /*
-				<ul class="extra">
-					<li>Courses taken include: software/web engineering, databases, operating systems, networking, artificial intelligence, cryptography</li>
-					<li>Acted as team leader on several large team projects, including a data-driven website project</li>
-					<li>Led a senior project which was a large system with web application, web services application, client and iPhone client components, with the purpose of synchronizing users' address books across services</li>
-					<li>GPA: 3.42</li>
-				</ul>
-				*/ ?>
 			</div>
 		</div>
 
@@ -78,15 +69,14 @@ require('includes/functions.php');
 				<div class="city">
 					Columbia, SC
 				</div>
-				
+
 				<div class="title">
 					Software Engineer
 				</div>
-				
+
 				<ul class="extra">
 					<li>Developed highly-scalable web applications using a LAMP stack deployed on Amazon EC2</li>
-					<li>Used a number of other technologies such as memcache, Redis, and node.js on production applications</li>
-					<li>Developed applications for the Facebook platform to serve millions of users</li>
+					<li>Used a number of other technologies such as memcache, Redis, and node.js in production</li>
 					<li>Spearheaded the development of a business pivot to Facebook Page audience analytics</li>
 					<li>Prototyped most of the analytics algorithms used</li>
 					<li>Consulted on a statistical study of fan engagement vs. age for Coca-Cola to present at a conference</li>
@@ -95,7 +85,7 @@ require('includes/functions.php');
 					<li>Assisted with recruiting and interviewing potential new hires</li>
 				</ul>
 			</div>
-			
+
 			<div class="experience">
 				<div class="dates">
 					6/2007 – 5/2009
@@ -124,7 +114,7 @@ require('includes/functions.php');
 					<li>Worked with other developers to standardize practices including application deployment techniques, version control management, and product testing standards</li>
 				</ul>
 			</div>
-			
+
 			<div class="experience">
 				<div class="dates">
 					5/2006 – 7/2006
@@ -142,20 +132,20 @@ require('includes/functions.php');
 					Engineering Intern
 				</div>
 			</div>
-			
+
 			<div class="experience">
 				<div class="dates">
 					11/2003 – 8/2005
 				</div>
-				
+
 				<div class="company">
 					Perry Local Schools IS Department
 				</div>
-				
+
 				<div class="city">
 					Perry, OH
 				</div>
-				
+
 				<div class="title">
 					Web Programmer/Designer
 				</div>
@@ -166,21 +156,21 @@ require('includes/functions.php');
 				</ul>
 			</div>
 		</div>
-		
+
 		<div class="block">
 			<h3>Skills</h3>
 			<div class="normal_list">
 				<ul>
 					<li><b>Development environments:</b> Extensive experience with Visual Studio; familiar with Adobe Creative Suite (Dreamweaver, Fireworks, Photoshop)</li>
-					<li><b>Programming languages:</b> Extensive experience with PHP (standard and MVC paradigms), HTML/XHTML, CSS, Javascript/jQuery, Go; experience in C#, C++, shell scripting; exposure to Python, Ruby on Rails</li>
+					<li><b>Programming languages:</b> Extensive experience with PHP (standard and MVC paradigms), HTML/XHTML, CSS, Javascript/jQuery, Go; experience in C#, C++, shell scripting</li>
 					<li><b>APIs:</b> Extensive experience with the Facebook platform (Graph API, Canvas apps); experience with the Twitter, Github API</li>
-					<li><b>Databases:</b> Extensive experience with MySQL and SQL Server development/optimization; some experience with MongoDB, MySQL/SQL Server administration, Reporting Services development</li>
+					<li><b>Databases:</b> Extensive experience with MySQL and SQL Server development/optimization; some experience with MongoDB, MySQL administration</li>
 					<li><b>Operating Systems:</b> Extensive experience with Windows 98 through Windows 7, Mac OS X; experience in Linux (desktop, terminal, and programming), Amazon EC2 set-up and administration</li>
-					<li><b>Other:</b> Experience with Mathematica, Subversion, Mercurial, Git, and CVS version control, Memcache, Redis, Sharepoint application/workflow development</li>
+					<li><b>Other:</b> Experience with Mathematica, Subversion, Mercurial, Git, and CVS version control, Memcache, Redis</li>
 				</ul>
 			</div>
 		</div>
-			
+
 		<div class="block">
 			<h3>Other</h3>
 			<div class="normal_list">
@@ -191,7 +181,7 @@ require('includes/functions.php');
 					<li>Took and completed the inaugural free <a href="https://www.coursera.org/course/ml">machine learning class</a> from Stanford and Coursera with a final score of 100%.</li>
 				</ul>
 			</div>
-				
+
 			<div class="normal_list">
 				<ul>
 					<li><b>Microsoft Certified Professional ID</b>: 6635414</li>
@@ -204,19 +194,20 @@ require('includes/functions.php');
 	</div>
 </div>
 
-<p id="footer">
+<div id="footer">
 	&copy; <?php echo date("Y"); ?> Jimmy Sawczuk &middot;
-	<?php echo git_revision(); ?>
 	<a href="http://github.com/jimmysawczuk/resume" target="_blank">Open-sourced on Github</a> &middot;
+	<?php echo git_revision(); ?>
 	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot;
 	Last modified on <?php echo @date("F j, Y", @filemtime(__FILE__)); ?>
-</p>
+</div>
+
 <div id="print_footer">
-	<p>
+	<div class="container">
 		&copy; <?php echo date("Y"); ?> Jimmy Sawczuk &middot;
 		<?php echo print_git_revision(); ?>
 		Printed on <?php echo date("F j, Y"); ?>
-	</p>
+	</div>
 </div>
 </body>
 </html>
