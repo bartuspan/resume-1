@@ -79,11 +79,11 @@ require('includes/functions.php');
 					<li>Developed highly-scalable web applications using a LAMP stack deployed on Amazon EC2</li>
 					<li>Used a number of other technologies such as memcache, Redis, and node.js in production</li>
 					<li>Spearheaded the development of a business pivot to Facebook Page audience analytics</li>
-					<li>Prototyped most of the analytics algorithms used</li>
-					<li>Consulted on a statistical study of fan engagement vs. age for Coca-Cola to present at a conference</li>
-					<li>Grew used to an agile environment, developed solutions based on fluid specifications</li>
-					<li>Spoke at a local tech group about Facebook platform development</li>
-					<li>Assisted with recruiting and interviewing potential new hires</li>
+					<li>Prototyped most of the analytics algorithms and systems used in the company</li>
+					<li>Consulted on a statistical study of Facebook fan engagement vs. age for Coca-Cola to present at a conference</li>
+					<li>Designed and implemented a rich persona definition API in both Go and PHP which we use for most of our analytics work</li>
+					<li>Designed and implemented a worker daemon in Go that schedules and runs thousands of analytic tasks per day</li>
+					<li>Designed and implemented a datamining program in Go to find "interesting" crosstabs for clients</li>
 				</ul>
 			</div>
 
@@ -132,6 +132,10 @@ require('includes/functions.php');
 				<div class="title">
 					Engineering Intern
 				</div>
+
+				<ul class="extra">
+					<li>Assisted in the civil engineering department with day-to-day tasks</li>
+				</ul>
 			</div>
 
 			<div class="experience">
@@ -162,12 +166,11 @@ require('includes/functions.php');
 			<h3>Skills</h3>
 			<div class="normal_list">
 				<ul>
-					<li><b>Development environments:</b> Extensive experience with Visual Studio; familiar with Adobe Creative Suite (Dreamweaver, Fireworks, Photoshop)</li>
-					<li><b>Programming languages:</b> Extensive experience with PHP (standard and MVC paradigms), HTML/XHTML, CSS, Javascript/jQuery, Go; experience in C#, C++, shell scripting</li>
+					<li><b>Programming languages:</b> Extensive experience with Go, PHP (standard and MVC paradigms), Javascript/jQuery (some Backbone.js); experience in C#, C++, shell scripting</li>
 					<li><b>APIs:</b> Extensive experience with the Facebook platform (Graph API, Canvas apps); experience with the Twitter, Github API</li>
 					<li><b>Databases:</b> Extensive experience with MySQL and SQL Server development/optimization; some experience with MongoDB, MySQL administration</li>
 					<li><b>Operating Systems:</b> Extensive experience with Windows 98 through Windows 7, Mac OS X; experience in Linux (desktop, terminal, and programming), Amazon EC2 set-up and administration</li>
-					<li><b>Other:</b> Experience with Mathematica, Subversion, Mercurial, Git, and CVS version control, Memcache, Redis</li>
+					<li><b>Other:</b> Experience with Subversion, Mercurial, Git, and CVS version control, Memcache, Redis</li>
 				</ul>
 			</div>
 		</div>
@@ -177,7 +180,7 @@ require('includes/functions.php');
 			<div class="normal_list">
 				<ul>
 					<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Source available upon request.</li>
-					<li>Implemented and <a href="http://code.jimmysawczuk.com/jimmysawczuk.com">open-sourced</a> a WordPress theme from scratch for my personal blog.</li>
+					<li>Implemented and <a href="http://github.com/jimmysawczuk/jimmysawczuk.com">open-sourced</a> a WordPress theme from scratch for my personal blog.</li>
 					<li>Created and currently administer a website frontend and Google Apps-based backend of a local church technology stack for about 25 users, including e-mail, calendars, chat and a custom website.</li>
 					<li>Took and completed the inaugural free <a href="https://www.coursera.org/course/ml">machine learning class</a> from Stanford and Coursera with a final score of 100%.</li>
 				</ul>
