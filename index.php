@@ -81,7 +81,7 @@ require('includes/functions.php');
 					<li>Spearheaded the development of a business pivot to Facebook Page audience analytics</li>
 					<li>Prototyped most of the analytics algorithms and systems used in the company</li>
 					<li>Consulted on a statistical study of Facebook fan engagement vs. age for Coca-Cola to present at a conference</li>
-					<li>Designed and implemented a rich persona definition API in both Go and PHP which we use for most of our analytics work</li>
+					<li>Designed and implemented a rich persona definition API in both Go and PHP which is still used for most of the company's analytics work</li>
 					<li>Designed and implemented a worker daemon in Go that schedules and runs thousands of analytic tasks per day</li>
 					<li>Designed and implemented a datamining program in Go to find "interesting" crosstabs for clients</li>
 				</ul>
@@ -156,7 +156,7 @@ require('includes/functions.php');
 				</div>
 
 				<ul class="extra">
-					<li>Content management and addition for faculty and staff</li>
+					<li>Content management and addition for faculty and staff on the main district website</li>
 					<li>Worked with other students on several larger projects, including a high school course registrar and a course database complete with objectives</li>
 				</ul>
 			</div>
@@ -182,7 +182,7 @@ require('includes/functions.php');
 					<li>Created a small blog website that operated for almost four years. Users were allowed to upload photos, write journal entries, etc. Source available upon request.</li>
 					<li>Implemented and <a href="http://github.com/jimmysawczuk/jimmysawczuk.com">open-sourced</a> a WordPress theme from scratch for my personal blog.</li>
 					<li>Created and currently administer a website frontend and Google Apps-based backend of a local church technology stack for about 25 users, including e-mail, calendars, chat and a custom website.</li>
-					<li>Took and completed the inaugural free <a href="https://www.coursera.org/course/ml">machine learning class</a> from Stanford and Coursera with a final score of 100%.</li>
+					<li>Completed the inaugural free <a href="https://www.coursera.org/course/ml">machine learning class</a> from Stanford and Coursera with a final score of 100%.</li>
 				</ul>
 			</div>
 
