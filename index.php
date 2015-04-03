@@ -6,7 +6,9 @@ require('includes/functions.php');
 <title>James J. Sawczuk - Software Engineer</title>
 <?php load_stylesheet('style', array('media' => 'screen')); ?>
 <?php load_stylesheet('print', array('media' => 'print'), true); ?>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="jimmy, sawczuk, james, resume, php, html, css, mysql, c#, mongodb, developer, software, engineer, go, programmer" />
 <meta name="description" content="The professional resume of James J. (Jimmy) Sawczuk, a web and Windows software engineer." />
 <link media="print" rel="Alternate" href="/resume.pdf">
@@ -27,10 +29,12 @@ require('includes/functions.php');
 <div id="content">
 	<div class="container">
 		<h2>
-			1134 Autumn Circle <span class="dot">&middot;</span> Columbia, SC 29206<br />
-			<b>phone</b> (440) 796-7806 <span class="dot">&middot;</span>
-			<b>e-mail</b> <a href="mailto:me@jimmysawczuk.com" target="_blank">me@jimmysawczuk.com</a> <span class="dot">&middot;</span>
-			<b>web</b> <a href="http://www.jimmysawczuk.com" target="_blank">www.jimmysawczuk.com</a>
+			<span class="line line-block">1134 Autumn Circle <span class="dot">&middot;</span> Columbia, SC 29206</span>
+			<span class="line"><b>phone</b> (440) 796-7806</span>
+			<span class="dot">&middot;</span>
+			<span class="line"><b>e-mail</b> <a href="mailto:me@jimmysawczuk.com" target="_blank">me@jimmysawczuk.com</a></span>
+			<span class="dot">&middot;</span>
+			<span class="line"><b>web</b> <a href="http://jimmysawczuk.com" target="_blank">jimmysawczuk.com</a></span>
 		</h2>
 		<h1>James J. Sawczuk</h1>
 
@@ -199,11 +203,14 @@ require('includes/functions.php');
 </div>
 
 <div id="footer">
-	&copy; <?php echo date("Y"); ?> Jimmy Sawczuk &middot;
-	<a href="http://github.com/jimmysawczuk/resume" target="_blank">Open-sourced on Github</a> &middot;
+	<span class="line">&copy; <?php echo date("Y"); ?> Jimmy Sawczuk</span>
+	<span class="dot">&middot;</span>
+	<span class="line"><a href="http://github.com/jimmysawczuk/resume" target="_blank">Open-sourced on Github</a></span>
+	<span class="dot">&middot;</span>
+	<span class="line">League Gothic font by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a></span>
+	<span class="dot">&middot;</span>
 	<?php echo git_revision(); ?>
-	League Gothic font provided by <a href="http://www.theleagueofmoveabletype.com" target="_blank">The League of Moveable Type</a> &middot;
-	Last modified on <?php echo @date("F j, Y", @filemtime(__FILE__)); ?>
+	<span class="line">Last modified on <?php echo @date("F j, Y", @filemtime(__FILE__)); ?></span>
 </div>
 
 <div id="print_footer">

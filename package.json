@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My online resume, located at jimmysawczuk.com/resume.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimmysawczuk/resume.git"
+  },
+  "author": "Jimmy Sawczuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmysawczuk/resume/issues"
+  },
+  "homepage": "http://jimmysawczuk.com/resume",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "cssmin": "^0.4.3",
+    "less": "^2.4.0"
+  }
+}

@@ -43,6 +43,14 @@ body {
 				&:visited { color: @color; }
 				&:hover { text-decoration: none; color: @color; }
 			}
+
+			.line {
+				display: inline;
+			}
+
+			.line-block {
+				display: block;
+			}
 		}
 
 		h1 {
@@ -169,6 +177,10 @@ body {
 	text-align: center;
 	color: #444;
 
+	.line {
+		white-space: nowrap;
+	}
+
 	a {
 		@color: #dedede;
 		color: @color;
@@ -180,4 +192,85 @@ body {
 
 #print_footer {
 	display: none;
+}
+
+@media screen and (max-width: 910px) {
+	body {
+		background: #333;
+	}
+
+	#content {
+		width: 100%;
+		margin: 0px;
+
+		.container {
+			box-shadow: none !important;
+			.border-radius(0px);
+			border: 0px;
+			padding: 20px 30px;
+		}
+	}
+
+	#footer {
+		font-size: 11px;
+		background: #333;
+		color: #f9f9f9;
+		box-sizing: border-box;
+		padding: 0px 15px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#content {
+		.container {
+			padding: 5px 10px;
+
+			h1 {
+				font-size: 54px;
+				margin: 15px 0px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 11px;
+				text-align: center;
+
+				.dot {
+					display: none;
+				}
+
+				.line {
+					display: block;
+				}
+
+				.line-block {
+					.dot {
+						display: inline;
+					}
+				}
+			}
+
+			h3 {
+				font-size: 24px;
+			}
+
+			.education {
+				.dates, .school, .city {
+					float: none;
+					width: auto;
+				}
+			}
+
+			.experience {
+				.dates, .company, .city {
+					float: none;
+					width: auto;
+				}
+			}
+
+			ul {
+				padding-left: 15px;
+			}
+		}
+	}
 }

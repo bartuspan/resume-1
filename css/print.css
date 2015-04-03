@@ -55,11 +55,10 @@ audio:not([controls]) {
 html {
   font-size: 100%;
   /* 1 */
-
   -webkit-text-size-adjust: 100%;
+  /* 2 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-
 }
 /*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
@@ -257,10 +256,8 @@ nav ol {
 img {
   border: 0;
   /* 1 */
-
   -ms-interpolation-mode: bicubic;
   /* 2 */
-
 }
 /*
  * Corrects overflow displayed oddly in IE9
@@ -302,14 +299,11 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-
   padding: 0;
   white-space: normal;
   /* 2 */
-
   *margin-left: -7px;
   /* 3 */
-
 }
 /*
  * 1. Corrects font size not being inherited in all browsers
@@ -322,14 +316,12 @@ select,
 textarea {
   font-size: 100%;
   /* 1 */
-
   margin: 0;
   /* 2 */
-
   vertical-align: baseline;
+  /* 3 */
   *vertical-align: middle;
   /* 3 */
-
 }
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
@@ -338,7 +330,6 @@ button,
 input {
   line-height: normal;
   /* 1 */
-
 }
 /*
  * 1. Improves usability and consistency of cursor style between image-type 'input' and others
@@ -352,13 +343,10 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   /* 1 */
-
   -webkit-appearance: button;
   /* 2 */
-
   *overflow: visible;
   /* 3 */
-
 }
 /*
  * Re-set default cursor for disabled elements
@@ -377,14 +365,12 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-
   padding: 0;
   /* 2 */
-
   *height: 13px;
+  /* 3 */
   *width: 13px;
   /* 3 */
-
 }
 /*
  * 1. Addresses appearance set to searchfield in S5, Chrome
@@ -393,11 +379,9 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-
   box-sizing: content-box;
 }
 /*
@@ -423,10 +407,8 @@ input::-moz-focus-inner {
 textarea {
   overflow: auto;
   /* 1 */
-
   vertical-align: top;
   /* 2 */
-
 }
 /* =============================================================================
    Tables
@@ -452,14 +434,13 @@ body {
   font: 13px/1.231 arial, helvetica, clean, sans-serif;
   *font-size: small;
   /* for IE */
-
   *font: x-small;
   /* for IE in quirks mode */
-
 }
 /**
  * Nudge down to get to 13px equivalent for these form elements
- */select,
+ */
+select,
 input,
 button,
 textarea {
@@ -510,6 +491,8 @@ body {
   -moz-border-radius: 3px 3px 3px 3px;
   -webkit-border-radius: 3px 3px 3px 3px;
   border: 1px solid #595959;
+  display: inline-block;
+  display: block;
 }
 #content .container:after {
   content: ".";
@@ -517,12 +500,6 @@ body {
   height: 0;
   clear: both;
   visibility: hidden;
-}
-#content .container {
-  display: inline-block;
-}
-#content .container {
-  display: block;
 }
 #content .container h2 {
   font-size: 93%;
@@ -543,6 +520,12 @@ body {
 #content .container h2 a:hover {
   text-decoration: none;
   color: #333333;
+}
+#content .container h2 .line {
+  display: inline;
+}
+#content .container h2 .line-block {
+  display: block;
 }
 #content .container h1 {
   font-family: 'LeagueGothic', 'Impact', 'Helvetica', 'Arial';
@@ -650,6 +633,9 @@ body {
   text-align: center;
   color: #444;
 }
+#footer .line {
+  white-space: nowrap;
+}
 #footer a {
   color: #dedede;
 }
@@ -666,7 +652,72 @@ body {
 #print_footer {
   display: none;
 }
-@page  {
+@media screen and (max-width: 910px) {
+  body {
+    background: #333;
+  }
+  #content {
+    width: 100%;
+    margin: 0px;
+  }
+  #content .container {
+    box-shadow: none !important;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 0px;
+    padding: 20px 30px;
+  }
+  #footer {
+    font-size: 11px;
+    background: #333;
+    color: #f9f9f9;
+    box-sizing: border-box;
+    padding: 0px 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #content .container {
+    padding: 5px 10px;
+  }
+  #content .container h1 {
+    font-size: 54px;
+    margin: 15px 0px;
+    text-align: center;
+  }
+  #content .container h2 {
+    font-size: 11px;
+    text-align: center;
+  }
+  #content .container h2 .dot {
+    display: none;
+  }
+  #content .container h2 .line {
+    display: block;
+  }
+  #content .container h2 .line-block .dot {
+    display: inline;
+  }
+  #content .container h3 {
+    font-size: 24px;
+  }
+  #content .container .education .dates,
+  #content .container .education .school,
+  #content .container .education .city {
+    float: none;
+    width: auto;
+  }
+  #content .container .experience .dates,
+  #content .container .experience .company,
+  #content .container .experience .city {
+    float: none;
+    width: auto;
+  }
+  #content .container ul {
+    padding-left: 15px;
+  }
+}
+@page {
   size: 8.5in 11in;
   margin: 0.5in 0.5in 0.5in;
 }
@@ -714,11 +765,12 @@ body {
   display: none;
 }
 #print_footer {
-  display: block;
   margin-top: 3em;
   position: relative;
   width: 100%;
   page-break-before: avoid;
+  display: inline-block;
+  display: block;
 }
 #print_footer:after {
   content: ".";
@@ -726,12 +778,6 @@ body {
   height: 0;
   clear: both;
   visibility: hidden;
-}
-#print_footer {
-  display: inline-block;
-}
-#print_footer {
-  display: block;
 }
 #print_footer .container {
   padding: 0px;
