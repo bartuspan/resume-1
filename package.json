@@ -15,6 +15,7 @@
   "devDependencies": {
     "bower": "^1.4.1",
     "cssmin": "^0.4.3",
-    "less": "^2.4.0"
+    "less": "^2.4.0",
+    "less-plugin-autoprefix": "^1.4.1"
   }
 }

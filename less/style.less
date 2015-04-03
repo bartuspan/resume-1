@@ -8,7 +8,7 @@
 @headerFont: 'LeagueGothic', 'Impact', 'Helvetica', 'Arial';
 
 body {
-	background-color: #aaa;
+	background-color: #bbb;
 
 	font-family: @normalFont;
 	color: @normalColor;
@@ -24,9 +24,9 @@ body {
 	.container {
 		padding: 0.25in 1in;
 		background-color: #f9f9f9;
-		.box-shadow(1px, 1px, 25px, 2px, #676767);
-		.border-radius(3px);
-		border: 1px solid #595959;
+		box-shadow: 1px 1px 25px 2px #aaa;
+		border-radius: 3px;
+		border: 1px solid #777;
 		.clearfix;
 
 		h2 {
@@ -182,7 +182,7 @@ body {
 	}
 
 	a {
-		@color: #dedede;
+		@color: #444;
 		color: @color;
 		&:active { color: @color; }
 		&:visited { color: @color; }
@@ -204,8 +204,8 @@ body {
 		margin: 0px;
 
 		.container {
-			box-shadow: none !important;
-			.border-radius(0px);
+			box-shadow: none;
+			border-radius: 0px;
 			border: 0px;
 			padding: 20px 30px;
 		}
