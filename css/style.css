@@ -667,6 +667,19 @@ body {
     box-sizing: border-box;
     padding: 0px 15px;
   }
+  #footer a {
+    color: #f9f9f9;
+  }
+  #footer a:active {
+    color: #f9f9f9;
+  }
+  #footer a:visited {
+    color: #f9f9f9;
+  }
+  #footer a:hover {
+    text-decoration: none;
+    color: #f9f9f9;
+  }
 }
 @media screen and (max-width: 600px) {
   #content .container {
