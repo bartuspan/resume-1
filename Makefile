@@ -11,8 +11,8 @@ setup: clean
 
 dev:
 	@mkdir -p css
-	@lessc less/style.less css/style.css
-	@lessc less/print.less css/print.css
+	@lessc --autoprefix='last 3 versions, > 1%' less/style.less css/style.css
+	@lessc --autoprefix='last 3 versions, > 1%' less/print.less css/print.css
 
 	@cssmin css/style.css > css/style.min.css
 	@cssmin css/print.css > css/print.min.css
