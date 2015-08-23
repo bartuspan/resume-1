@@ -68,7 +68,7 @@ require('includes/functions.php');
 				</div>
 
 				<div class="company">
-					Louddoor, LLC
+					LoudDoor, LLC
 				</div>
 
 				<div class="city">
